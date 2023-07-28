@@ -18,3 +18,39 @@
     font-size: 64px;
   }
 }
+.menu a { 
+  display: block;
+  padding: 30px; 
+  color: var(25);
+}
+.menu a:hover{
+  background-color: 
+}
+.hamb {
+  cursor:pointer;
+  float:right;
+  padding:35px 20px;
+}
+.hamb-line {
+  background-color:green;
+  display: block;
+  height: 2px;
+  position:relative;
+  width:24px;
+}
+.hamb-line::before
+.hamb-line::afte {
+  background-color: ;
+  content:'';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transform: all .2s ease;
+  width: 100%;
+}
+.hamb-line::before {
+  top: 5px;
+}
+.hamb-line::after {
+  top: -5px;
+}
