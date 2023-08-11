@@ -1,56 +1,19 @@
-*{ 
+* {
     margin: 0;
     padding: 0;
 }
-.menu {
-   width: 100%;
-   height: 50px;
-   background-color: red;
+
+.caixa {
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.rodape {
-    text-align: center;
-}
-@media screen and (min-width: 768px) {
-  .menu {
-    height: 100px;
-    background-color: green;
-    color: blue;
-    font-size: 64px;
-  }
-}
-.menu a { 
-  display: block;
-  padding: 30px; 
-  color: var(25);
-}
-.menu a:hover{
-  background-color: 
-}
-.hamb {
-  cursor:pointer;
-  float:right;
-  padding:35px 20px;
-}
-.hamb-line {
-  background-color:green;
-  display: block;
-  height: 2px;
-  position:relative;
-  width:24px;
-}
-.hamb-line::before
-.hamb-line::afte {
-  background-color: ;
-  content:'';
-  display: block;
-  height: 100%;
-  position: absolute;
-  transform: all .2s ease;
-  width: 100%;
-}
-.hamb-line::before {
-  top: 5px;
-}
-.hamb-line::after {
-  top: -5px;
-}
+.redondo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+} 
